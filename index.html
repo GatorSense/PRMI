@@ -38,6 +38,8 @@
   <style>
     img {
         display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .column-50 {
@@ -95,11 +97,11 @@
         <sup>5</sup> University of Maine
         <span style="display:inline-block; width: 32px"></span>
         <sup>6</sup> Argonne National Laboratory
-		<p align="center">36th AAAI Conference on Artificial Intelligence 2022</p>
-        <figure>
+		<p align="center">AI for Agriculture and Food Systems (AIAFS) in 36th AAAI Conference on Artificial Intelligence 2022</p>
+        <!-- <figure>
             <img src="./images/PRMI.png" style="width:100%"></img>
             <br>
-        </figure>
+        </figure> -->
         <br>
         <div id="teaser" class="container" style="width:100%; margin:0; padding:0">
             <p align="justify">
@@ -112,10 +114,16 @@
 	 <div class="section">
             <h5>Minirhizotron System</h5>
 		<figure>
-		    <img src="./images/MR_system.png" style="width:50%"></img>  
+		    <img src="./images/MR_system.png" style="width:65%"></img>  
 		    <br>
 		</figure>
-	</div>
+    <br>
+    <div id="teaser" class="container" style="width:100%; margin:0; padding:0"></div>
+      <p align="justify">
+    Minirhizotron (MR) technology is one of the few most widely-used approaches for phenotyping RSA non-destructively over time. Generally, before planting, MR transparent tubes are installed in the field at an angle (e.g. 45<span>&#176;</span>) to the soil surface in locations that should eventually be directly under or near to plants of interest. Then, as the plant's root systems grow, a high-resolution camera can be inserted along the tube to capture root images at a variety of depths as shown in the Figure. Since the MR tubes remain in the soil during the entire growing period, the camera is able to capture time-series RGB root images providing insight into RSA development. In addition to the development of the whole root structure, MR imagery can be used to observe changes of roots themselves throughout their life cycle such as color, diameter, angle, and length changes.
+      </p>
+  </div>
+      
      
     <div class="section">
             <h5>Dataset Example </h5>
@@ -133,7 +141,15 @@
         <br>
     </figure>
   </div>
-		
+  
+   <div class="section">
+      <h5>Manually Annotated Ground Truth Masks  </h5>
+  <figure>
+    <img src="./images/GT_example.png" style="width:100%"></img>
+    <br>
+  </figure>
+   </div>
+
 <!-- 	 <div class="section">
             <h5>Qualitative Results </h5>
 		<figure>
