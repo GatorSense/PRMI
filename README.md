@@ -1,7 +1,7 @@
 # PRMI: A Dataset of Minirhizotron Images for Diverse Plant Root Studies
 
 This repository is used for maintaince of project website for the paper "[PRMI: A Dataset of Minirhizotron Images for Diverse Plant Root Study](https://gatorsense.github.io/PRMI)."
-[![DOI](https://datadryad.org/stash/dataset/doi:10.5061/dryad.2v6wwpzp4)](https://doi.org/10.5061/dryad.2v6wwpzp4)
+DOI:https://doi.org/10.5061/dryad.2v6wwpzp4
 
 ## Citation
 Please cite the following reference if you use PRMI dataset.
